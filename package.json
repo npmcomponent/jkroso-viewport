@@ -1,18 +1,15 @@
 {
-  "name": "viewport",
-  "version": "0.1.6",
+  "name": "jkroso-viewport",
   "description": "represents the browsers viewport in a more useful way",
+  "keywords": [
+    "viewport",
+    "window",
+    "resize",
+    "scroll"
+  ],
   "dependencies": {
-    "emitter": "jkroso/Emitter#0.10.0",
-    "event": "component/event#0.1.2"
+    "component-event": "git://github.com/npmcomponent/component-event.git",
+    "jkroso-emitter": "git://github.com/npmcomponent/jkroso-emitter.git"
   },
-  "devDependencies": {
-    "serve": "jkroso/serve#1.5.1"
-  },
-  "repository": "git://github.com/jkroso/viewport.git",
-  "bugs": "https://github.com/jkroso/viewport/issues",
-  "keywords": ["state", "events", "viewport", "window", "resize", "scroll"],
-  "author": "Jakeb Rosoman",
-  "files": ["index.js"],
   "license": "MIT"
 }

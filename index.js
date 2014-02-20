@@ -1,6 +1,6 @@
 
-var Emitter = require('emitter')
-var events = require('event')
+var Emitter = require('jkroso-emitter')
+var events = require('component-event')
 
 // mixin emitter
 Emitter(exports)
